@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import {
   Flex,
   Heading,
@@ -13,6 +13,7 @@ import {
   FormControl,
   FormHelperText,
   InputRightElement,
+  useToast,
 } from "@chakra-ui/react";
 import { FaUserAlt, FaLock } from "react-icons/fa";
 import { signInWithEmailAndPassword } from "firebase/auth";
@@ -27,6 +28,12 @@ const SignIn = (e) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { login, isAuth } = useContext(AuthContext);
+  const toast = useToast();
+  const toastIdRef = useRef();
+
+  function addToast(e) {
+    toastIdRef.current = toast({ description: e });
+  }
   const handleShowClick = () => {
     setShowPassword(!showPassword);
   };
@@ -37,10 +44,12 @@ const SignIn = (e) => {
       .then((useCredential) => {
         console.log(useCredential);
         login(useCredential._tokenResponse.idToken);
+        addToast("Logged in Successful");
         return <Navigate to="/" />;
       })
       .catch((err) => {
         console.error(err);
+        addToast("Wrong Email and Password");
       });
   };
   if (isAuth) {

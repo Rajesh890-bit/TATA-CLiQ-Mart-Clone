@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContextProvider";
 
 const Products = () => {
-  const { isAuth } = useContext(AuthContext);
+  const { isAuth, authUser } = useContext(AuthContext);
   if (!isAuth) {
     return <Navigate to={"/"} />;
   }

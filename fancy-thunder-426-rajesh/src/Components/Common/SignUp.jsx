@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import {
   Flex,
   Heading,
@@ -15,6 +15,7 @@ import {
   InputRightElement,
   Alert,
   AlertIcon,
+  useToast,
 } from "@chakra-ui/react";
 import { FaUserAlt, FaLock } from "react-icons/fa";
 import { createUserWithEmailAndPassword } from "firebase/auth";
@@ -30,6 +31,12 @@ const SignUp = (e) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { isAuth } = useContext(AuthContext);
+  const toast = useToast();
+  const toastIdRef = useRef();
+
+  function addToast(e) {
+    toastIdRef.current = toast({ description: e });
+  }
   const handleShowClick = () => {
     setShowPassword(!showPassword);
   };
@@ -40,18 +47,11 @@ const SignUp = (e) => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((useCredential) => {
         console.log(useCredential);
-
-        return (
-          <>
-            <Alert status="error">
-              <AlertIcon />
-              Congratulation Your account Created Successfully
-            </Alert>
-            <Navigate to="/login" />
-          </>
-        );
+        addToast("Congratulation! Your Account Created SuccessFully...");
+        return <Navigate to="/login" />;
       })
       .catch((err) => {
+        addToast("Please Fill Correct Details");
         console.error(err);
       });
   };
