@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import {
   Flex,
   Heading,
@@ -9,7 +9,6 @@ import {
   InputLeftElement,
   chakra,
   Box,
-  Link,
   Avatar,
   FormControl,
   FormHelperText,
@@ -18,7 +17,8 @@ import {
 import { FaUserAlt, FaLock } from "react-icons/fa";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase-config";
-
+import { AuthContext } from "../../Context/AuthContextProvider";
+import { Link, Navigate } from "react-router-dom";
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
 
@@ -26,20 +26,26 @@ const SignIn = (e) => {
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { login, isAuth } = useContext(AuthContext);
   const handleShowClick = () => {
     setShowPassword(!showPassword);
   };
-  const SignIn = (e) => {
+
+  const signIn = (e) => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, password)
       .then((useCredential) => {
         console.log(useCredential);
+        login(useCredential._tokenResponse.idToken);
+        return <Navigate to="/" />;
       })
       .catch((err) => {
         console.error(err);
       });
   };
-
+  if (isAuth) {
+    return <Navigate to={"/"} />;
+  }
   return (
     <Flex
       flexDirection="column"
@@ -56,9 +62,9 @@ const SignIn = (e) => {
         alignItems="center"
       >
         <Avatar bg="teal.500" />
-        <Heading color="teal.400">Welcome to SignIn page</Heading>
+        <Heading color="teal.400">Welcome to Login page</Heading>
         <Box minW={{ base: "90%", md: "468px" }}>
-          <form onSubmit={SignIn}>
+          <form onSubmit={signIn}>
             <Stack
               spacing={4}
               p="1rem"
@@ -115,11 +121,8 @@ const SignIn = (e) => {
           </form>
         </Box>
       </Stack>
-      <Box>
-        New to us?{" "}
-        <Link color="teal.500" href="/">
-          Sign Up
-        </Link>
+      <Box style={{ color: "teal.500" }}>
+        New to us? <Link to="/signup">Sign Up</Link>
       </Box>
     </Flex>
   );
