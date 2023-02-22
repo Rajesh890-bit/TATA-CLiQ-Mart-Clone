@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import {
   Flex,
   Heading,
@@ -9,15 +9,18 @@ import {
   InputLeftElement,
   chakra,
   Box,
-  Link,
   Avatar,
   FormControl,
   FormHelperText,
   InputRightElement,
+  Alert,
+  AlertIcon,
 } from "@chakra-ui/react";
 import { FaUserAlt, FaLock } from "react-icons/fa";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase-config";
+import { Link, Navigate } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthContextProvider";
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
@@ -26,19 +29,35 @@ const SignUp = (e) => {
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { isAuth } = useContext(AuthContext);
   const handleShowClick = () => {
     setShowPassword(!showPassword);
   };
+
   const signUp = (e) => {
     e.preventDefault();
+
     createUserWithEmailAndPassword(auth, email, password)
       .then((useCredential) => {
         console.log(useCredential);
+
+        return (
+          <>
+            <Alert status="error">
+              <AlertIcon />
+              Congratulation Your account Created Successfully
+            </Alert>
+            <Navigate to="/login" />
+          </>
+        );
       })
       .catch((err) => {
         console.error(err);
       });
   };
+  if (isAuth) {
+    return <Navigate to={"/"} />;
+  }
 
   return (
     <Flex
@@ -115,11 +134,8 @@ const SignUp = (e) => {
           </form>
         </Box>
       </Stack>
-      <Box>
-        New to us?{" "}
-        <Link color="teal.500" href="/">
-          Sign Up
-        </Link>
+      <Box style={{ color: "teal" }}>
+        New to us? <Link to="/login">Log In</Link>
       </Box>
     </Flex>
   );
