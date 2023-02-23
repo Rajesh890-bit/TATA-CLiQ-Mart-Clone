@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Login from "../Components/Common/SignIn";
 import SignUp from "../Components/Common/SignUp";
 import Home from "../Pages/Home";
-import Products from "../Pages/Products";
+import ViewProductsPage from "../Pages/ViewProductsPage";
 import PrivateRoute from "./PrivateRoute";
 import Error404 from "../Pages/Error404";
 import SingleProductsPage from "../Pages/SingleProductsPage";
@@ -16,12 +16,13 @@ const AllRoutes = () => {
   return (
     <div>
       <Routes>
-        <Route path="/products/:id" element={<SingleProductsPage />}></Route>
+        <Route path="/:id/:pid" element={<SingleProductsPage />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="*" element={<Error404 />}></Route>
         <Route path="/signup" element={<SignUp />} />
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
+
+        <Route path="/products/:id" element={<ViewProductsPage />}></Route>
         <Route
           path="/cart"
           element={

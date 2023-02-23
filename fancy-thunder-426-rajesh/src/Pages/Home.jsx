@@ -46,7 +46,6 @@ export default function Home() {
   return (
     <Box w={"100%"} className="container">
       <Text>Home Page</Text>
-      <Gap gap={5} />
       <Carousels />
 
       {/* category */}

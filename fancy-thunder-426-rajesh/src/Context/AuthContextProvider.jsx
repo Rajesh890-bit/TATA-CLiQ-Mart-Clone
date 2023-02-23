@@ -13,8 +13,10 @@ const AuthContextProvider = ({ children }) => {
     const listen = onAuthStateChanged(auth, (user) => {
       if (user) {
         setAuthUser(user);
+        setIsAuth(true);
       } else {
         setAuthUser(null);
+        setIsAuth(false);
       }
     });
     return () => {

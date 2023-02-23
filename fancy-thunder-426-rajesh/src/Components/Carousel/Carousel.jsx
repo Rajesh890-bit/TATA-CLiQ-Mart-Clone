@@ -11,7 +11,7 @@ const settings = {
 };
 const Carousels = () => {
   return (
-    <Box position={"relative"} zIndex={0}>
+    <Box position={"static"} zIndex={0}>
       <Carousel {...settings} style={{ styles }}>
         <Box>
           <Image

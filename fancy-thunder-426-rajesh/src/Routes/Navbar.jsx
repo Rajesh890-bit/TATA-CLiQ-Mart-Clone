@@ -115,13 +115,6 @@ export default function Navbar() {
                   Home
                 </Link>
               </MenuItem>
-
-              <MenuItem>
-                {" "}
-                <Link key="/products" to="/products">
-                  Products
-                </Link>
-              </MenuItem>
             </MenuList>
           </Menu>
         </Box>
