@@ -1,11 +1,17 @@
 import { onAuthStateChanged, signOut } from "firebase/auth";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { auth } from "../firebase-config";
 import SignIn from "../Components/Common/SignIn";
+import { useToast } from "@chakra-ui/react";
 
 const AuthDetails = () => {
   const [authUser, setAuthUser] = useState(null);
+  const toast = useToast();
+  const toastIdRef = useRef();
 
+  function addToast(e) {
+    toastIdRef.current = toast({ description: e });
+  }
   useEffect(() => {
     const listen = onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -17,11 +23,12 @@ const AuthDetails = () => {
     return () => {
       listen();
     };
-  }, []);
+  }, [authUser]);
   const userSignOut = () => {
     signOut(auth)
       .then(() => {
         console.log("user Signed out");
+        addToast(`${authUser.email} logged out`);
       })
       .catch((err) => {
         console.error(err);

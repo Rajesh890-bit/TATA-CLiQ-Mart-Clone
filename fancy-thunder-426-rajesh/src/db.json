@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "shoes",
+    "items": [
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013734213_437Wx649H_202207082032321.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013734213_437Wx649H_202207082032342.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013734213_437Wx649H_202207082032364.jpeg"
+        ],
+        "long_desc": "Boost your performance with this pair of running shoes from Adidas. It is made with a lower carbon footprint. The BOOST and EVA cushioning is provided to this pair for responsiveness. Made with a series of recycled materials, its breathable mesh upper features at least half of recycled content with targeted zones of flexibility and support to keep your feet comfortable. The responsive BOOST in the midsole supports your landing and energizes every step, while the springy forefoot cushioning propels you forward. Moreover, its rubber outsole ensures optimal grip.",
+        "color": "grey",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-7", "UK/IND-8", "UK/IND-9"],
+        "id": "shoes1",
+        "name": "adidas",
+        "size": true,
+        "short_desc": "Adidas Men's SUPERNOVA 2 Ash Grey Running Shoes",
+        "price": 5999,
+        "strike_price": 9999,
+        "category": "shoes",
+        "ratings": 4.5
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013233503_437Wx649H_202205231847511.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013233503_437Wx649H_202205231847522.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013233503_437Wx649H_202205231847554.jpeg"
+        ],
+        "long_desc": "Crafted with fine technology and futuristic design, this pair of Puma running shoes is surely here to uplift your style and track games. Kick-off on the streets and the field in this pair from the world's leading and much-loved sports brand, Puma. They come with a textile upper and a rubber outsole for a stylish design and moderate traction on all surfaces.",
+        "color": "black",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-7"],
+        "id": "shoes2",
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Men's Black Running Shoes",
+        "price": 2249,
+        "strike_price": 4499,
+        "category": "shoes",
+        "ratings": 3
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665678_437Wx649H_202212102221501.jpeg",
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665678_437Wx649H_202212102221572.jpeg",
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665678_437Wx649H_202212102221543.jpeg"
+        ],
+        "long_desc": "Enjoy a new active lifestyle by wearing this pair of black running shoes from Fila. Offering optimal responsiveness and energy return, its TPU upper is lightweight, flexible and ensures utmost comfort. The PU sole guarantees absolute support. Wear it with a pair of sweatpants and a T-Shirt for a sporty look.",
+        "color": "blue",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-7", "UK/IND-8"],
+        "id": "shoes3",
+        "name": "Fila",
+        "size": true,
+        "short_desc": "Fila Men's SOIFON Black Running Shoes",
+        "price": 3359,
+        "strike_price": 4799,
+        "category": "shoes",
+        "ratings": 3.5
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011228751_437Wx649H_202111201704051.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011228751_437Wx649H_202111201704062.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011228751_437Wx649H_202111201704073.jpeg"
+        ],
+        "long_desc": "Be at ease while you run by wearing this pair of anthracite black running shoes from Lotto that comes with a lace fastening. The high-quality mesh upper is easy to maintain and is durable. The rubber sole offers optimum surface traction to your feet on any rough surface. To amp up your sporty look, this pair comes with a round shaped tip. It can be worn with a pair of trackpants and a T-Shirt.",
+        "color": "black",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-8", "UK/IND-9"],
+        "id": "shoes4",
+        "name": "Lotto",
+        "size": true,
+        "short_desc": "Lotto Men's RICCO Anthracite Black Running Shoes",
+        "price": 1099,
+        "strike_price": 2999,
+        "category": "shoes",
+        "ratings": 3.1
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013746505_437Wx649H_202207100038071.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013746505_437Wx649H_202207100038092.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013746505_437Wx649H_202207100038103.jpeg"
+        ],
+        "long_desc": "Go the extra mile in well-cushioned comfort with these Skechers running shoes. This slip-on Stretch Fit pair features a breathable athletic knit upper with an Air-Cooled Goga Mat insole and lightweight responsive 5 GEN cushioning midsole. This pair guarantees maximum comfort as it has an outsole constructed with premium quality 5 GEN as well.",
+        "color": "grey",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-7", "UK/IND-8", "UK/IND-9"],
+        "id": "shoes5",
+        "name": "Skechers",
+        "size": true,
+        "short_desc": "Skechers Men's GO RUN FAST Charcoal Grey Running Shoes",
+        "price": 3499,
+        "strike_price": 6999,
+        "category": "shoes",
+        "ratings": 3.8
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014684344_437Wx649H_202209291003061.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014684344_437Wx649H_202209291003032.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014684344_437Wx649H_202209291003093.jpeg"
+        ],
+        "long_desc": "Let adventure lead the way in these men's Adidas running shoes with a versatile design. The Bounce midsole is lightweight for pillowy strides and support for short or long runs. The Geofit padding around the collar is for a comfortable and secure fit at the ankle. Log miles in ultimate comfort when you lace up in these Adidas shoes. The breathable synthetic upper keeps feet feeling cool and fresh on warm days. The lightweight cushioning makes each step more enjoyable. This pair has a premium rubber outsole.",
+        "color": "white",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-7", "UK/IND-9"],
+        "id": "shoes6",
+        "name": "adidas",
+        "size": true,
+        "short_desc": "Adidas Men's EQ 21 Off White Running Shoes",
+        "price": 4799,
+        "strike_price": 7999,
+        "category": "shoes",
+        "ratings": 3.1
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014185493_437Wx649H_202208201931441.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014185493_437Wx649H_202208201931452.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014185493_437Wx649H_202208201931473.jpeg"
+        ],
+        "long_desc": "Let adventure lead the way in these men's Adidas running shoes with a versatile design. The Bounce midsole is lightweight for pillowy strides and support for short or long runs. The Geofit padding around the collar is for a comfortable and secure fit at the ankle. The breathable synthetic upper keeps feet feeling cool and fresh on warm days. The lightweight cushioning makes each step more enjoyable. These shoes are for the daily runner. The rubber sole offers targeted support and ventilation.",
+        "color": "black",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-9"],
+        "id": "shoes7",
+        "name": "adidas",
+        "size": true,
+        "short_desc": "Adidas Men's EQ 21 Black Running Shoes",
+        "price": 4799,
+        "strike_price": 7999,
+        "category": "shoes",
+        "ratings": 3
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014992289_437Wx649H_202210230957481.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014992289_437Wx649H_202210230957532.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014992289_437Wx649H_202210230957553.jpeg"
+        ],
+        "long_desc": "A perfect pair for your aerobic workout session, this pair of black running shoes from Puma is designed for absolute comfort and robust performance. The high-quality durable textile upper is easy to maintain. The rubber sole provides traction on most surfaces and offers the required support and stability to your feet. You can wear it with a polyester T-shirt and a pair of trackpants.",
+        "color": "black",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-7", "UK/IND-8"],
+        "id": "shoes8",
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Men's Atlas Black Running Shoes",
+        "price": 2249,
+        "strike_price": 4499,
+        "category": "shoes",
+        "ratings": 4
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014028431_437Wx649H_202208032238061.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014028431_437Wx649H_202208032238082.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014028431_437Wx649H_202208032238114.jpeg"
+        ],
+        "long_desc": "The high-class single-tone mesh with small hole texture, gradient printing on 3 stripes, different design of eye stay and pop branding on the tongue is a perfect look for this pair of running shoes from Adidas. Its removable Ortholite socks provide an extra cushioning effect and anti-bacterial comfort. The flex midsole offers comfort and superior cushioning while the non-marking rubber outsole is provided for excellent grip. Its synthetic and mesh upper optimally encases the foot and allows breathability.",
+        "color": "blue",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-7", "UK/IND-9"],
+        "id": "shoes9",
+        "name": "adidas",
+        "size": true,
+        "short_desc": "Adidas Men's Ny 90 Stripes W Navy Running Shoes",
+        "price": 2759,
+        "strike_price": 4599,
+        "category": "shoes",
+        "ratings": 3
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665896_437Wx649H_202212102232531.jpeg",
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665896_437Wx649H_202212102233002.jpeg",
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665896_437Wx649H_202212102232563.jpeg"
+        ],
+        "long_desc": "Add power to your running session with this pair of blue running shoes from Fila. Offering optimal responsiveness and energy return, its TPU upper is lightweight, flexible and ensures utmost comfort. The EVA sole guarantees absolute support. Wear it with a pair of sweatpants and a T-Shirt for a sporty look.",
+        "color": "blue",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-8", "UK/IND-9"],
+        "id": "shoes10",
+        "name": "Fila",
+        "size": true,
+        "short_desc": "Fila Men's DORAAN Blue Running Shoes",
+        "price": 1249,
+        "strike_price": 2499,
+        "category": "shoes",
+        "ratings": 3.3
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014992764_437Wx649H_202210231022531.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014992764_437Wx649H_202210231022512.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014992764_437Wx649H_202210231022555.jpeg"
+        ],
+        "long_desc": "A perfect pair for your aerobic workout session, this pair of white running shoes from Puma is designed for absolute comfort and robust performance. The high-quality durable textile upper is easy to maintain. The rubber sole provides traction on most surfaces and offers the required support and stability to your feet. You can wear it with a polyester T-shirt and a pair of trackpants.",
+        "color": "white",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-7", "UK/IND-9"],
+        "id": "shoes11",
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Men's White Running Shoes",
+        "price": 2249,
+        "strike_price": 4499,
+        "category": "shoes",
+        "ratings": 3
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665678_437Wx649H_202212102221501.jpeg",
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665678_437Wx649H_202212102221572.jpeg",
+          "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015665678_437Wx649H_202212102221543.jpeg"
+        ],
+        "long_desc": "Enjoy a new active lifestyle by wearing this pair of black running shoes from Fila. Offering optimal responsiveness and energy return, its TPU upper is lightweight, flexible and ensures utmost comfort. The PU sole guarantees absolute support. Wear it with a pair of sweatpants and a T-Shirt for a sporty look.",
+        "color": "blue",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-7", "UK/IND-9"],
+        "id": "shoes12",
+        "name": "Fila",
+        "size": true,
+        "short_desc": "Fila Men's SOIFON Black Running Shoes",
+        "price": 3359,
+        "strike_price": 4799,
+        "category": "shoes",
+        "ratings": 3.5
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015515767_437Wx649H_202212010449281.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015515767_437Wx649H_202212010449252.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015515767_437Wx649H_202212010449263.jpeg"
+        ],
+        "long_desc": "These Puma running shoes come with NITRO foam cushioning. It's the perfect place to start if you have not run in Puma recently and want a do-it-all trainer. The styling is sleek and the comfort is outstanding based on intelligently integrated NITRO. Built for running any distance, this pair offers an all-around smooth ride in a durable fit. This pair helps in delivering comfort and cushioning for all runners. Ideal for road and treadmill running, this pair has a textile upper and a rubber outsole.",
+        "color": "black",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-9"],
+        "id": "shoes13",
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Men's Velocity Nitro 2 OUT Black Running Shoes",
+        "price": 8449,
+        "strike_price": 1299,
+        "category": "shoes",
+        "ratings": 4.6
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015041676_437Wx649H_202210262015001.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015041676_437Wx649H_202210262015023.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015041676_437Wx649H_202210262015044.jpeg"
+        ],
+        "long_desc": "Extended and padded heel offers better grip and comfort to these running shoes from Skechers. The relaxed-fit design is for a roomy and comfortable fit. At the bottom, an Air cooled memory foam insole provides breathability, pressure relief and instant comfort. The new TERRENEX bottom offers superior flexibility, cushioning and stability. The advanced traction pattern along with a rubber outsole provides better grip and abrasion resistance. The mesh upper adds to the visual appeal of the pair.",
+        "color": "blue",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-8", "UK/IND-9"],
+        "id": "shoes14",
+        "name": "Skechers",
+        "size": true,
+        "short_desc": "Skechers Men's TERRENEX Navy Running Shoes",
+        "price": 3416,
+        "strike_price": 3799,
+        "category": "shoes",
+        "ratings": 3.8
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000011849759_437Wx649H_202201211317341.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000011849759_437Wx649H_202201211317363.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000011849759_437Wx649H_202201211317385.jpeg"
+        ],
+        "long_desc": "This pair of grey running shoes from Lotto has been designed to ensure both comfort and stability. It features an engineered mesh upper that ensures to keep your feet relaxed and at ease. This pair of lace shoes is durable, light in weight and comfortable to wear while the EVA sole further provides better traction on different surfaces. Team it with a pair of trackpants to look sporty.",
+        "color": "grey",
+        "delivery_time": 2,
+        "sizes": ["UK/IND-6", "UK/IND-8"],
+        "id": "shoes15",
+        "name": "Lotto",
+        "size": true,
+        "short_desc": "Lotto Men's RICCO Grey Running Shoe",
+        "price": 1099,
+        "strike_price": 2999,
+        "category": "shoes",
+        "ratings": 3.7
+      }
+    ]
+  },
+  {
+    "id": "menswear",
+    "items": [
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013700605_437Wx649H_202207061150201.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013700605_437Wx649H_202207061150222.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013700605_437Wx649H_202207061150233.jpeg"
+        ],
+        "name": "Levi's",
+        "size": true,
+        "short_desc": "Levi's All Abord Blue Graphic Print Sweatshirt",
+        "price": 1249,
+        "strike_price": 2499,
+        "ratings": 4.8,
+        "id": "menswear1",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "XL"],
+        "long_desc": "Set the fashion trend this season in this smart and stylish all abord blue sweatshirt from Levi's. The cotton sweatshirt features a crew neck, full sleeves and graphic print pattern. Complement this sweatshirt with a pair of well-fitting jeans."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015174803_437Wx649H_202211051010011.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015174803_437Wx649H_202211051009543.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015174803_437Wx649H_202211051010006.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Puma Black Cotton Regular Fit Printed Sweatshirt",
+        "price": 1479,
+        "strike_price": 2999,
+        "ratings": 5,
+        "id": "menswear2",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S", "M"],
+        "long_desc": "Augment your look by wearing this puma black regular fit sweatshirt from Puma. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. Exuding full sleeves, it is sure to fetch you compliments from all. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014328890_437Wx649H_202209032347381.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014328890_437Wx649H_202209032347413.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014328890_437Wx649H_202209032347424.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Black Cotton Regular Fit Printed SweatShirt",
+        "price": 1629,
+        "strike_price": 3299,
+        "ratings": 4,
+        "id": "menswear3",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S", "L"],
+        "long_desc": "Give yourself a modish look with this skillfully crafted black regular sweatshirts from Puma. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. Exuding full sleeves, it is sure to fetch you compliments from all. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015250684_437Wx649H_202211111220341.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015250684_437Wx649H_202211111220383.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015250684_437Wx649H_202211111220405.jpeg"
+        ],
+        "name": "Red Tape",
+        "size": true,
+        "short_desc": "Red Tape Off White Regular Fit Round Neck Sweatshirt",
+        "price": 959,
+        "strike_price": 3199,
+        "ratings": 5,
+        "id": "menswear4",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "white",
+        "sizes": ["S", "M", "XL"],
+        "long_desc": "Prepare to welcome the new season's cool evenings in style with this stellar off-white round neck sweatshirt from the latest offering of Red Tape. Artfully knitted in prime quality poly cotton fleece for a strong, enduring fabric offering softness and cosy warmth, it's classic regular fit silhouette ensures ample room and unrestricted movement while the trendy graphic pattern makes it a stylish fashion piece. Pair it with denims for a youthful look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013952670_437Wx649H_202207282256381.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013952670_437Wx649H_202207282256413.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013952670_437Wx649H_202207282256465.jpeg"
+        ],
+        "name": "Red Tape",
+        "size": true,
+        "short_desc": "Red Tape Off White Round Neck Sweatshirt",
+        "price": 959,
+        "strike_price": 3199,
+        "ratings": 4,
+        "id": "menswear5",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "white",
+        "sizes": ["M", "L"],
+        "long_desc": "Add dollops of stylish flavor to windy days with this stellar off-white round neck sweatshirt from the latest collection of Red Tape. Tailored in prime quality poly cotton fleece for an assuring, heavy-weight feel and a soft yet strong fabric with a high comfort index, it's classic regular fit silhouette ensures ample room for accomodation of layers and unrestricted movement while the trendy print pattern makes it a favorite piece. Pair it with denims for a youthful look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013183837_437Wx649H_202205200250571.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013183837_437Wx649H_202205200250593.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013183837_437Wx649H_202205200251036.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Blue Printed Regular Fit Sweatshirt",
+        "price": 2919,
+        "strike_price": 4499,
+        "ratings": 4,
+        "id": "menswear6",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["XL", "L"],
+        "long_desc": "A wonderful mix of style and comfort, this blue regular fit sweatshirt from Puma will be a smart addition to your wardrobe. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. Exuding full sleeves, it is sure to fetch you compliments from all. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014328888_437Wx649H_202209032347361.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014328888_437Wx649H_202209032347393.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014328888_437Wx649H_202209032347436.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Blue Cotton Regular Fit Printed SweatShirt",
+        "price": 1239,
+        "strike_price": 2499,
+        "ratings": 4.5,
+        "id": "menswear7",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "XL"],
+        "long_desc": "Get appreciated for your style with this exclusive blue regular sweatshirts from Puma. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. Exuding full sleeves, it is sure to fetch you compliments from all. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013952709_437Wx649H_202207282258031.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013952709_437Wx649H_202207282258063.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013952709_437Wx649H_202207282258105.jpeg"
+        ],
+        "name": "Red Tape",
+        "size": true,
+        "short_desc": "Red Tape Light Blue Round Neck Sweatshirt",
+        "price": 929,
+        "strike_price": 3099,
+        "ratings": 3.2,
+        "id": "menswear8",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "L"],
+        "long_desc": "Add dollops of stylish flavor to windy days with this stellar light blue round neck sweatshirt from the latest collection of Red Tape. Tailored in prime quality poly cotton fleece for an assuring, heavy-weight feel and a soft yet strong fabric with a high comfort index, it's classic regular fit silhouette ensures ample room for accomodation of layers and unrestricted movement while the trendy print pattern makes it a favorite piece. Pair it with denims for a youthful look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014023157_437Wx649H_202208031224561.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014023157_437Wx649H_202208031224582.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014023157_437Wx649H_202208031225055.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Grey Round Neck Sweatshirt",
+        "price": 1649,
+        "strike_price": 2999,
+        "ratings": 4,
+        "id": "menswear9",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "grey",
+        "sizes": ["M", "XL"],
+        "long_desc": "Give a stellar upgrade to your seasonal wardrobe with the most modern youthful trends in this terrific grey round neck sweatshirt from the latest collection of Puma. Artfully knitted in a premium blend of virgin cotton and recycled polyester for an inimitable mix of softness, warm comfort and superb fabric strength, it's classic regular fit silhouette ensures ample room and free movement while the trendy print pattern gives it an uber stylish edge. Pair it with denims for a sporty look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015247037_437Wx649H_202211110431441.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015247037_437Wx649H_202211110431423.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015247037_437Wx649H_202211110431495.jpeg"
+        ],
+        "name": "Jack & Jones",
+        "size": true,
+        "short_desc": "Jack & Jones Blue Cotton Slim Fit Printed Sweatshirt",
+        "price": 1034,
+        "strike_price": 2299,
+        "ratings": 3.4,
+        "id": "menswear10",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "L"],
+        "long_desc": "Revamp your wardrobe with this blue slim fit sweatshirt from Jack and Jones. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010816066_437Wx649H_202110060410581.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010816066_437Wx649H_202110060411013.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010816066_437Wx649H_202110060411045.jpeg"
+        ],
+        "name": "Jack & Jones",
+        "size": true,
+        "short_desc": "Jack & Jones Dark Blue Printed Sweatshirt",
+        "price": 1399,
+        "strike_price": 2799,
+        "ratings": 4,
+        "id": "menswear11",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "XL", "L"],
+        "long_desc": "Get the perfect finish to your laid-back looks with this dark blue sweatshirt from Jack & Jones. Made from high quality fabric, this sweatshirt is light in weight. Featuring a round neck, full sleeves and printed pattern, this regular fit sweatshirt ensures a comfort all day long. This sweatshirt is sure to make you look smart and presentable when paired with faded jeans."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015247010_437Wx649H_202211110430371.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015247010_437Wx649H_202211110430383.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015247010_437Wx649H_202211110430425.jpeg"
+        ],
+        "name": "Jack & Jones",
+        "size": true,
+        "short_desc": "Jack & Jones Black Cotton Slim Fit Printed Sweatshirt",
+        "price": 1034,
+        "strike_price": 2299,
+        "ratings": 3,
+        "id": "menswear12",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S", "L"],
+        "long_desc": "Take a fashion-forward stance by wearing this black slim fit sweatshirt from Jack and Jones. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014770185_437Wx649H_202210071952401.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014770185_437Wx649H_202210071944403.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014770185_437Wx649H_202210071950446.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma one8 Blue & Yellow Cotton Colour Block Sweatshirt",
+        "price": 2469,
+        "strike_price": 4999,
+        "ratings": 4.2,
+        "id": "menswear13",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["M", "L"],
+        "long_desc": "Graced up with a magnetic design, this blue slim fit sweatshirt from Puma will add a hint of style to your look. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. Exuding full sleeves, it is sure to fetch you compliments from all. The color-block pattern renders it fashionable."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014515374_437Wx649H_202209180204571.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014515374_437Wx649H_202209180204553.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014515374_437Wx649H_202209180204595.jpeg"
+        ],
+        "name": "Red Tape",
+        "size": true,
+        "short_desc": "Red Tape Dark Grey Full Sleeves Round Neck Sweatshirt",
+        "price": 959,
+        "strike_price": 3199,
+        "ratings": 5,
+        "id": "menswear14",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "grey",
+        "sizes": ["S", "XL"],
+        "long_desc": "Prepare to welcome the new season's cool evenings in style with this stellar dark grey round neck sweatshirt from the latest offering of Red Tape. Artfully knitted in prime quality poly cotton fleece for a strong, enduring fabric offering softness and cosy warmth, it's classic regular fit silhouette ensures ample room and unrestricted movement while the trendy graphic pattern makes it a stylish fashion piece. Pair it with denims for a youthful look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013509172_437Wx649H_202207021922451.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013509172_437Wx649H_202207021922484.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013509172_437Wx649H_202207021922506.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Black Cotton Regular Fit Printed Sweatshirt",
+        "price": 1349,
+        "strike_price": 2999,
+        "ratings": 4.6,
+        "id": "menswear15",
+        "category": "menswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["XL", "L"],
+        "long_desc": "Maintain a cut from the rest by wearing this black regular fit sweatshirt from Puma. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The round neck adds to its appeal. Exuding full sleeves, it is sure to fetch you compliments from all. The printed pattern makes it a captivating choice."
+      }
+    ]
+  },
+  {
+    "id": "womenswear",
+    "items": [
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235676_437Wx649H_202211101235531.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235676_437Wx649H_202211101235443.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235676_437Wx649H_202211101235475.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Black Regular Fit Puffer Jacket",
+        "price": 2309,
+        "strike_price": 7699,
+        "ratings": 5,
+        "id": "womenswear1",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S", "XL"],
+        "long_desc": "Hit the road in style by wearing this black puffer jacket from Mode By Red Tape. It has a turtle neck that makes it convenient to wear. Besides, it is made of a fine quality polyester fabric, which makes it easy to maintain. The solid pattern and full sleeves further lends it a trendy look. Team it with a pair of contrast denim."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011200966_437Wx649H_202111181503581.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011200966_437Wx649H_202111181504013.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011200966_437Wx649H_202111181504035.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Black Quilted Jacket",
+        "price": 1739,
+        "strike_price": 5799,
+        "ratings": 3.7,
+        "id": "womenswear2",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S", "M"],
+        "long_desc": "Be fashionably comfortable in the chill with this awesome black high neck jacket from Mode by Red Tape. Beautifully crafted in fine nylon for an attractive sheen, a soft hand feel and superb wear comfort, it's fabulous quilted pattern and trendy silhouette assign it a unique fashion identity. Put it over some denims for a trendy look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013865143_437Wx649H_202207212109451.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013865143_437Wx649H_202207212111453.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013865143_437Wx649H_202207212118564.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Black Cotton Printed Jacket",
+        "price": 1979,
+        "strike_price": 3999,
+        "ratings": 3,
+        "id": "womenswear3",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S", "L"],
+        "long_desc": "Sensationalize your wardrobe with this black jacket from Puma. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The mock collar adds to its appeal. Exuding full sleeves, it is sure to fetch you compliments from all. The printed pattern makes it a captivating choice."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008348157_437Wx649H_202012052300541.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008348157_437Wx649H_202012052300573.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008348157_437Wx649H_202012052300585.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Blue Quilted Jacket",
+        "price": 1889,
+        "strike_price": 6299,
+        "ratings": 4.8,
+        "id": "womenswear4",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "M", "XL"],
+        "long_desc": "Give yourself an ultra modern casual look with this blue jacket from Mode by Red Tape. Made of nylon fabric, this regular fit jacket is comfortable to wear and skin friendly as well. Featuring a hood neck, full sleeves and quilted pattern, this jacket holds a superlative enchantment. Team this jacket with a pair of denims and loafers to complete the look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013035450_437Wx649H_202206240025411.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013035450_437Wx649H_202206240025443.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013035450_437Wx649H_202206240025475.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Off White Full Sleeves Jacket",
+        "price": 5999,
+        "strike_price": 9999,
+        "ratings": 4.2,
+        "id": "womenswear5",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "white",
+        "sizes": ["M", "L"],
+        "long_desc": "Put a layer of elegant fashion over your western ensembles with this awesome off-white jacket from Puma. Masterfully crafted in premium stretch polyester blended with recycled polyester for superb softness and exemplary comfort, it's fashionably designed relaxed fit ensures snug accommodation of layers while according it a touch of class. Put it over a white shirt for a terrific combination."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012273026_437Wx649H_202202251303341.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012273026_437Wx649H_202202251303363.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012273026_437Wx649H_202202251303324.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Black Printed Sweatshirt",
+        "price": 4999,
+        "strike_price": 6999,
+        "ratings": 4.7,
+        "id": "womenswear6",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["XL", "L"],
+        "long_desc": "Throw on the breathable black sweatshirt from Puma and comfortably enjoy your morning run. Fashioned using cotton fabric, this sweatshirt will not fail to catch your fancy at a single glance. Featuring a round neck, full sleeves and printed pattern, this regular fit sweatshirt holds a superlative enticement. Complement this sweatshirt with a pair of loose-fitting shorts or joggers."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013035461_437Wx649H_202205052305141.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013035461_437Wx649H_202205052305163.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013035461_437Wx649H_202205052305184.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Off White Full Sleeves Hooded Jacket",
+        "price": 4549,
+        "strike_price": 6999,
+        "ratings": 5,
+        "id": "womenswear7",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "white",
+        "sizes": ["S", "M", "XL", "L"],
+        "long_desc": "Put a layer of elegant fashion over your western ensembles with this awesome off-white hooded jacket from Puma. Masterfully crafted in premium nylon for superb softness and exemplary comfort, it's fashionably designed slim fit ensures snug accommodation of layers while according it a touch of class. Put it over a white shirt for a terrific combination."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011465501_437Wx649H_202112151912231.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011465501_437Wx649H_202112151912263.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011465501_437Wx649H_202112151912305.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Blue Hooded Puffer Jacket",
+        "price": 1859,
+        "strike_price": 6199,
+        "ratings": 5,
+        "id": "womenswear8",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "L"],
+        "long_desc": "Don't let the chill dampen your spirited style with this awesome blue puffer jacket from the latest collection of Mode by Red Tape. Artfully made in premium nylon for fabulous sheen, luxurious softness and unmatched comfort, it's beautiful color-block pattern and modern silhoutte assign it a delicate charm. Put it over some denims for a trendy look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011200881_437Wx649H_202111181458561.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011200881_437Wx649H_202111181458583.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011200881_437Wx649H_202111181459005.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Grey Quilted Jacket",
+        "price": 1739,
+        "strike_price": 5799,
+        "ratings": 4.6,
+        "id": "womenswear9",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "grey",
+        "sizes": ["S", "M"],
+        "long_desc": "Be fashionably comfortable in the chill with this awesome grey high neck jacket from Mode by Red Tape. Beautifully crafted in fine nylon for an attractive sheen, a soft hand feel and superb wear comfort, it's fabulous quilted pattern and trendy silhouette assign it a unique fashion identity. Put it over some denims for a trendy look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014051466_437Wx649H_202208051240251.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014051466_437Wx649H_202208051240283.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014051466_437Wx649H_202208051240315.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma White Regular Fit Padded Jacket",
+        "price": 5599,
+        "strike_price": 7999,
+        "ratings": 3.8,
+        "id": "womenswear10",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "white",
+        "sizes": ["M"],
+        "long_desc": "Inculcate a combination of style and panache to your wardrobe with this white high neck padded jacket from Puma. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. Exuding full sleeves, it is sure to fetch you compliments from all."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008348117_437Wx649H_202012052258541.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008348117_437Wx649H_202012052258562.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008348117_437Wx649H_202012052258584.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Blue Full Sleeves Jacket",
+        "price": 1349,
+        "strike_price": 4499,
+        "ratings": 4.3,
+        "id": "womenswear11",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["XL"],
+        "long_desc": "Channel smart looks in your casual wardrobe with this blue jacket from Mode by Red Tape. Made from high quality fabric, it will provide you with immense comfort throughout the day. Featuring a mandarin collar and full sleeves, this jacket possesses a fashionable appeal. Style this jacket with a pair of denims and wedges for a classy modish look."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012076598_437Wx649H_202202101602461.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012076598_437Wx649H_202202101602503.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012076598_437Wx649H_202202101602514.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Black & Grey Graphic Print Hoodie",
+        "price": 2229,
+        "strike_price": 4499,
+        "ratings": 4.1,
+        "id": "womenswear12",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "grey",
+        "sizes": ["L"],
+        "long_desc": "Throw on the breathable black and grey hoodie from Puma and comfortably enjoy your morning run. Fashioned using cotton fabric, this hoodie will not fail to catch your fancy at a single glance. Featuring a hooded neck, full sleeves and graphic print pattern, this regular fit hoodie holds a superlative enticement. Complement this hoodie with a pair of loose-fitting shorts or joggers."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012273144_437Wx649H_202202251309311.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012273144_437Wx649H_202202251309333.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012273144_437Wx649H_202202251309355.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma Black Regular Fit Jacket",
+        "price": 2469,
+        "strike_price": 4999,
+        "ratings": 3.6,
+        "id": "womenswear13",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["S"],
+        "long_desc": "Perform your best on the field wearing the comfortable and flexible black hoodie from Puma. Tailored in regular fit, this high quality fabric hoodie is light in weight. Featuring a hooded neck and full sleeves, this hoodie holds an elegant dazzle. Team this hoodie with shorts and pink sports shoes to complete your gear."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012076530_437Wx649H_202202101558591.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012076530_437Wx649H_202202101559013.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012076530_437Wx649H_202202101559035.jpeg"
+        ],
+        "name": "Puma",
+        "size": true,
+        "short_desc": "Puma White Regular Fit Hoodie",
+        "price": 1979,
+        "strike_price": 3999,
+        "ratings": 5,
+        "id": "womenswear14",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "white",
+        "sizes": ["S", "XL", "L"],
+        "long_desc": "The white hoodie from Puma is a must-have for women who love a fit and active lifestyle. Fashioned using cotton fabric, this hoodie will not fail to catch your fancy at a single glance. Featuring a hooded neck and full sleeves, this regular fit hoodie holds a superlative enticement. Put on your favorite track pants with this hoodie, and you're all set for a workout."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235681_437Wx649H_202211101235421.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235681_437Wx649H_202211101235443.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235681_437Wx649H_202211101235515.jpeg"
+        ],
+        "name": "Mode by Red Tape",
+        "size": true,
+        "short_desc": "Mode by Red Tape Teal Regular Fit Puffer Jacket",
+        "price": 2309,
+        "strike_price": 7699,
+        "ratings": 3,
+        "id": "womenswear15",
+        "category": "womenswear",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["S", "M", "XL"],
+        "long_desc": "Fetch compliments by wearing this teal puffer jacket from Mode By Red Tape. It features a turtle neck that makes it look stylish, while the full sleeves add to its design. Besides, the use of a premium quality polyester fabric ensures that you stay warm and cosy all day long. It also has a solid pattern that renders it classy. Style it with a pair of jeans."
+      }
+    ]
+  },
+  {
+    "id": "gadgets",
+    "items": [
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005269189_437Wx649H_20200802180854.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005269189_437Wx649H_20200802180851.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005269189_437Wx649H_20200802180857.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL Flip 5 20 W IPX7 Waterproof Bluetooth Speaker with PartyBoost (Black)",
+        "price": 7999,
+        "strike_price": 10999,
+        "ratings": 4,
+        "id": "gadgets1",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["HD Sound"],
+        "long_desc": "The JBL Flip 5 20W Bluetooth Speaker is designed for people who not only appreciate portable speakers for their audio performance but also their looks. This Bluetooth speaker is powered with 12 hours of playtime and is compact enough to fit in your bag to be carried anywhere. It features a rugged design, IPX7 waterproof rated exterior and comes in a suite of cool colors. Moreover, pair two JBL PartyBoost-compatible speakers together for stereo sound or link multiple JBL PartyBoost-compatible speakers to create a bigger party."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005268692_437Wx649H_20200814184016.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005268692_437Wx649H_20200814184017.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005268692_437Wx649H_20200814184019.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL Flip 5 20W Bluetooth Speaker (Blue)",
+        "price": 7999,
+        "strike_price": 10999,
+        "ratings": 4.3,
+        "id": "gadgets2",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["wireless"],
+        "long_desc": "The JBL Flip 5 20W Bluetooth Speaker is designed for people who not only appreciate portable speakers for their audio performance but also their looks. This Bluetooth speaker is powered with 12 hours of playtime and is compact enough to fit in your bag to be carried anywhere. It features a rugged design, IPX7 waterproof rated exterior and comes in a suite of cool colors. Moreover, pair two JBL PartyBoost-compatible speakers together for stereo sound or link multiple JBL PartyBoost-compatible speakers to create a bigger party."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008858631_437Wx649H_202102202107011.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008858631_437Wx649H_202102202107105.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008858631_437Wx649H_202102202107138.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL Boombox 2 Portable Bluetooth Speaker (JBLBOOMBOX2BLKIN, Black)",
+        "price": 2749,
+        "strike_price": 4299,
+        "ratings": 4,
+        "id": "gadgets3",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wired"],
+        "long_desc": "Buy JBL Boombox 2 Portable Bluetooth Speaker and blast your favourite music wherever you go. It has JBL Signature Pro Sound for massive audio and deep bass and PartyBoost feature lets you connect multiple JBL speakers for a louder sound. The Sturdy IPX7 design makes it waterproof in up to 3 feet of water. The Integrated power bank lets you keep charging the device and a high-capacity battery with 24 hours of playback time."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000006655681_437Wx649H_20200715155014.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000006655681_437Wx649H_20200715155015.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000006655681_437Wx649H_20200715155019.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Stone 190 5W Portable Wireless Speaker with IPX7 Water Resistance and Bluetooth V5.0 (Black)",
+        "price": 1179,
+        "strike_price": 2999,
+        "ratings": 4.4,
+        "id": "gadgets4",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["bluetooth"],
+        "long_desc": "Immerse in Nirvana with boAt Stone 190 T wireless portable speaker. The speaker comes equipped with 52mm dynamic driver for an immersive audio experience. It supports instant wireless connectivity with latest Bluetooth v5.0. It comes equipped with the provision for AUX connectivity as well. The lightweight ergonomics offers enhanced portability while on the move. It has an IPX7 rated water resistance shield for a carefree listening time. The speakers also possess the TWS feature, meaning you can connect two Stone 190s and forge them into one."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000004541773_437Wx649H_202011072348001.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000004541773_437Wx649H_202011072348024.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000004541773_437Wx649H_202011072348036.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Stone 650 T 10W Stereo Wireless Speaker with IPX5 Design & Up to 7H Playtime (Charcoal Black)",
+        "price": 1948,
+        "strike_price": 7990,
+        "ratings": 4.2,
+        "id": "gadgets5",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wireless", "bluetooth", "HD Sound"],
+        "long_desc": "Surrounded by smooth secure silicon on the outside and a diamond gridded mesh, stay free with the IPX5 rated boAt stone 650 T. This dynamic speaker with 10W sound gives a premium audio experience. Apart from Bluetooth v4.2 wireless connectivity it also offers compatibility for AUX and SD card. Light up the scene with up to 7 hours of play time. It is equipped with easy access integrated controls that let you control playback with the minimum of efforts. Bring in this robust wireless portable speaker and listen to your sound wherever you want."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008778676_437Wx649H_202102212241051.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008778676_437Wx649H_202102212241104.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008778676_437Wx649H_202102212241126.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL GO 3 Ultra Portable IP67 Water and Dustproof 4.2W Bluetooth Speaker (Blue)",
+        "price": 3199,
+        "strike_price": 4499,
+        "ratings": 4.8,
+        "id": "gadgets6",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["wired", "bluetooth", "HD Sound"],
+        "long_desc": "This JBL Go 3 features bold styling and rich JBL Pro Sound. With its new eye-catching edgy design and expressive details this a must-have accessory for your next outing. Your tunes will lift you with JBL Pro Sound. It is IP67 waterproof and dustproof so you can keep listening while it's raining. With its integrated loop, you can carry it anywhere. Besides, it provides up to 5 hours of playtime for your uninterrupted fun."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009059420_437Wx649H_202103122203381.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009059420_437Wx649H_202103122203434.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009059420_437Wx649H_202103122203466.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL Clip 4 Ultra-Portable IP67 Water & Dustproof Bluetooth Speaker (Black)",
+        "price": 4499,
+        "strike_price": 4999,
+        "ratings": 5,
+        "id": "gadgets7",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["bluetooth", "HD Sound"],
+        "long_desc": "Cool, portable, and waterproof. The vibrant fresh looking JBL clip 4 delivers surprisingly rich JBL original pro sound in a compact package. The unique oval shape fits easy in your hand. Fully wrapped in colourful fabrics with expressive details inspired by current street fashion, it is easy to match your style. The fully integrated carabiner hooks instantly to bags, belts, or buckles, to bring your favourite tunes anywhere. Waterproof, dustproof, and up to 10 hours of playtime, it is rugged enough to tag along wherever you explore."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014229916_437Wx649H_202208261512051.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014229916_437Wx649H_202208261512104.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014229916_437Wx649H_202208261512147.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL Flip 6 Water & Dustproof Portable Bluetooth Speaker with JBL Pro Sound (Blue)",
+        "price": 11799,
+        "strike_price": 13999,
+        "ratings": 4.4,
+        "id": "gadgets8",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["wireless", "wired", "bluetooth", "HD Sound"],
+        "long_desc": "Enjoy an explicit sound quality with this Bluetooth speaker from JBL. Its Bluetooth 5.1 connectivity allows you to connect it with 2 smartphones or tablets with ease. It comes with a USB type C cable for charging purposes. Its IP67 waterproof and dustproof feature makes it damage proof from sudden splashes and sand. Its amazing battery backup provides 12 hours of playtime after a single charge."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235807_437Wx649H_202211101252051.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235807_437Wx649H_202211101252083.jpeg",
+          "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015235807_437Wx649H_202211101252065.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "Aavante Bar 503 Best Soundbar with 10W RMS soundbar (Black)",
+        "price": 1799,
+        "strike_price": 2990,
+        "ratings": 5,
+        "id": "gadgets9",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wired", "HD Sound"],
+        "long_desc": "Experience amazing sound quality with this soundbar from boAt. Its Bluetooth v5.0 feature ensures easy connectivity with your device. Its portable design allows you to carry it and use it anywhere you find convenient. It is easy to use with remote control as well. Moreover, its amazing battery backup ensures 4.5 hours of playtime once fully charged."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000002973184_437Wx649H_20200802181324.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000002973184_437Wx649H_20200802181335.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000002973184_437Wx649H_20200802181346.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Stone 1000 T 14W Stereo Wireless Speaker with Rugged IPX5 Design & Up to 8H Playback (Black)",
+        "price": 2399,
+        "strike_price": 6990,
+        "ratings": 4.2,
+        "id": "gadgets10",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wired", "HD Sound"],
+        "long_desc": "Immerse in Nirvana with boAt Stone 1000 T portable wireless speaker. The speaker comes equipped with Bluetooth and AUX compatibility for optimum listening experience. The powerful drivers offer monstrous 14W stereo sound to enthral you while you immerse in blissful auditory experience. Its rugged and robust design is IPX5 rated that ensures resistance against shocks, dust, water or splash scares. Carry your speaker wherever you go with its carry strap. It powerful 3000mAh battery offers a playback bliss of up to 8 hours so that the party vibes stay lit for extended duration."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010952988_437Wx649H_202110200717311.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010952988_437Wx649H_202110200755523.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010952988_437Wx649H_202110200831385.jpeg"
+        ],
+        "name": "JBL",
+        "size": false,
+        "short_desc": "JBL Charge 5 40W Portable Bluetooth Speaker (Black)",
+        "price": 14999,
+        "strike_price": 18999,
+        "ratings": 4.4,
+        "id": "gadgets11",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wireless", "HD Sound"],
+        "long_desc": "JBL Charge 5 40W Portable Bluetooth Speaker delivers bold JBL Original Pro Sound, with its optimized long excursion driver, separate tweeter and dual pumping JBL bass radiators. Up to 20 hours of playtime and a handy power bank to keep your devices charged to keep the party going all night. The IP67 waterproof and dustproof Charge 5 survives whatever comes its way. Thanks to PartyBoost, you can connect multiple JBL PartyBoost-enabled speakers for a sound big enough for any crowd."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004541948_437Wx649H_20200802183910.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004541948_437Wx649H_20200802183914.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004541948_437Wx649H_20200802183917.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Stone Grenade T 5W Portable Wireless Speaker with Rugged IPX6 Design & Up to 7H Playback",
+        "price": 1385,
+        "strike_price": 3990,
+        "ratings": 4.1,
+        "id": "gadgets12",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wireless", "bluetooth"],
+        "long_desc": "Say hello to boAt Stone Grenade T, the rugged portable and IPX6 marked wireless speaker. Equipped with 1.75? full range drivers, it delivers the immersive 5W sound. You can play the vibe your way with Bluetooth V4.2 providing you the optimum wireless experience. It gets the music going with a click via the easy access integrated controls. Apart from the wireless connectivity, you can connect to you sound via AUX and SD card as well. You can mix in with the beat with up to 7 hours of Detonation via a 1200mAh lithium battery. Sail free towards the shores of Nirvana."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004541809_437Wx649H_20200719141230.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004541809_437Wx649H_20200719141234.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004541809_437Wx649H_20200719141231.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Stone 650 T 10W Stereo Wireless Speaker with IPX5 Design & Up to 7H Playtime (Navy Blue)",
+        "price": 1999,
+        "strike_price": 4990,
+        "ratings": 4.2,
+        "id": "gadgets13",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["HD Sound"],
+        "long_desc": "Surrounded by smooth secure silicon on the outside and a diamond gridded mesh, stay free with the IPX5 rated boAt stone 650 T. This dynamic speaker with 10W sound gives a premium audio experience. Apart from Bluetooth v4.2 wireless connectivity it also offers compatibility for AUX and SD card. Light up the scene with up to 7 hours of play time. It is equipped with easy access integrated controls that let you control playback with the minimum of efforts. Bring in this robust wireless portable speaker and listen to your sound wherever you want."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005299500_437Wx649H_20200802185411.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005299500_437Wx649H_20200802185410.jpeg",
+          "https://img.tatacliq.com/images/i6/437Wx649H/MP000000005299500_437Wx649H_20200802185413.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Stone 1000 T 14W Stereo Wireless Speaker with Rugged IPX5 Design & Up to 8H Playback (Blue)",
+        "price": 2790,
+        "strike_price": 5990,
+        "ratings": 4.6,
+        "id": "gadgets14",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "blue",
+        "sizes": ["wireless"],
+        "long_desc": "Immerse in Nirvana with boAt Stone 1000 T portable wireless speaker. The speaker comes equipped with Bluetooth and AUX compatibility for optimum listening experience. The powerful drivers offer monstrous 14W stereo sound to enthral you while you immerse in blissful auditory experience. Its rugged and robust design is IPX5 rated that ensures resistance against shocks, dust, water or splash scares. Carry your speaker wherever you go with its carry strap. It powerful 3000mAh battery offers a playback bliss of up to 8 hours so that the party vibes stay lit for extended duration."
+      },
+      {
+        "images": [
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009005188_437Wx649H_202103070034261.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009005188_437Wx649H_202103070034314.jpeg",
+          "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009005188_437Wx649H_202103070034336.jpeg"
+        ],
+        "name": "Boat",
+        "size": false,
+        "short_desc": "boAt Rugby Plus T 16W Bluetooth Speaker (Black)",
+        "price": 1899,
+        "strike_price": 4990,
+        "ratings": 3.7,
+        "id": "gadgets15",
+        "category": "gadgets",
+        "delivery_time": 2,
+        "color": "black",
+        "sizes": ["wired"],
+        "long_desc": "Immerse into sheer auditory bliss with boAt Rugby Plus T 16W portable stereo wireless speaker. The speaker possesses 5.7 cm x 2 dynamic drivers for an immersive audio experience. It supports instant wireless connectivity with BT v5.0. The speaker pumps out nonstop audio for up to 7 hours on a single full charge and you can get it charged up with ease via the Type C interface. It also comes equipped with the provisions for TF Card and AUX connectivity as well. It's lightweight and has an IPX7 rated water resistance for a carefree listening time and easy portability."
+      }
+    ]
+  }
+]
