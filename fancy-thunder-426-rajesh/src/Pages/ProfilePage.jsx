@@ -8,13 +8,12 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-
-const SingleProductsPage = () => {
+const ProfilePage = () => {
   return (
     <Box>
-      <Text>Single Products page</Text>
+      <Text>Profile Page</Text>
     </Box>
   );
 };
 
-export default SingleProductsPage;
+export default ProfilePage;

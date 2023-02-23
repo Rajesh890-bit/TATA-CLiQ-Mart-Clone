@@ -25,7 +25,7 @@ import { BsSuitHeart } from "react-icons/bs";
 import { FiShoppingBag } from "react-icons/fi";
 
 import { useContext, useState } from "react";
-import logo from "../Components/images/tata_cliq.png";
+import logo from "../assets/images/tata_cliq.png";
 import { Link, useNavigate } from "react-router-dom";
 import {
   SearchIcon,
@@ -33,18 +33,15 @@ import {
   ChevronUpIcon,
   HamburgerIcon,
 } from "@chakra-ui/icons";
-import { BLACK, CENTER, RED, FIXED, POINTER } from "../Constants/typography";
-// import SignupModal from "../Components/Common/SignUp";
+import { CENTER, RED, FIXED, POINTER, RELATIVE } from "../Constants/typography";
+
 import { MdAdminPanelSettings } from "react-icons/md";
 import AuthDetails from "../Context/AuthDetails";
-// import { FaUserCircle } from "react-icons/fa";
+
 import { AuthContext } from "../Context/AuthContextProvider";
 export default function Navbar() {
   const [arrow1, setArrow1] = useState(false);
   const [arrow2, setArrow2] = useState(false);
-  // const { loading, signup, auth, no_user, error, exist, userId } = useSelector(
-  //   (state) => state.authManager
-  // );
   const [value, setValue] = useState("");
   const { isAuth, authUser } = useContext(AuthContext);
 
@@ -57,7 +54,7 @@ export default function Navbar() {
 
   return (
     <Box
-      position={FIXED}
+      position={RELATIVE}
       zIndex={100}
       top={0}
       bg="#212121"
@@ -97,7 +94,7 @@ export default function Navbar() {
             <MenuButton
               as={Button}
               rightIcon={<HamburgerIcon />}
-              colorScheme="red"
+              colorScheme={RED}
             ></MenuButton>
             <MenuList color="red" minWidth="140px">
               <MenuItem>

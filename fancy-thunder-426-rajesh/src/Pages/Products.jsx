@@ -1,16 +1,24 @@
 import React, { useContext } from "react";
 import { Navigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContextProvider";
-
+import {
+  Box,
+  Button,
+  Card,
+  CardBody,
+  Image,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
 const Products = () => {
   const { isAuth, authUser } = useContext(AuthContext);
   if (!isAuth) {
     return <Navigate to={"/"} />;
   }
   return (
-    <div>
-      <h1>All Products</h1>
-    </div>
+    <Box>
+      <Text>All Products page</Text>
+    </Box>
   );
 };
 
