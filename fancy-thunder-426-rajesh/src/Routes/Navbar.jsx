@@ -54,7 +54,7 @@ export default function Navbar() {
 
   return (
     <Box
-      position={RELATIVE}
+      position={FIXED}
       zIndex={100}
       top={0}
       bg="#212121"

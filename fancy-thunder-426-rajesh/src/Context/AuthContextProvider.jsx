@@ -8,7 +8,7 @@ export const AuthContext = createContext();
 
 const AuthContextProvider = ({ children }) => {
   const [authUser, setAuthUser] = useState(null);
-
+  let [cart, setCart] = useState([]);
   useEffect(() => {
     const listen = onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -31,6 +31,15 @@ const AuthContextProvider = ({ children }) => {
     setToken(token);
   };
 
+  const handleAddToCart = (copyItem) => {
+    // add the selected product to the cart array
+    console.log("data from cart page to auth", copyItem);
+
+    // // store the cart array in local storage
+    /* setCart([...cart, copyItem]); 
+   localStorage.setItem("cart", JSON.stringify([...cart, copyItem])); */
+  };
+
   const logout = () => {
     signOut(auth)
       .then(() => {
@@ -44,7 +53,9 @@ const AuthContextProvider = ({ children }) => {
   };
   console.log("MYtoken", token);
   return (
-    <AuthContext.Provider value={{ login, logout, isAuth, token, authUser }}>
+    <AuthContext.Provider
+      value={{ login, logout, isAuth, token, authUser, handleAddToCart, cart }}
+    >
       {children}
     </AuthContext.Provider>
   );

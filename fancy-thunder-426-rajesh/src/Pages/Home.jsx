@@ -1,5 +1,5 @@
 import { Box, Flex, Grid, Heading, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import Carousels from "../Components/Carousel/Carousel";
 import { Gap } from "../Components/Gap";
 import my_pixel from "../scripts/my_pixel";
@@ -42,7 +42,13 @@ import trendingnow_banner from "../assets/trendingnow_banner.png";
 import strike_choice_banner from "../assets/strike_choice_banner.png";
 import shoes_banner from "../assets/shoes_banner.png";
 import trending_men_banner from "../assets/trending_men_banner.png";
+import { ERROR_URL, LOADER_URL } from "../Constants/constants";
+import Loader from "../Components/Loader/Loader";
 export default function Home() {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  if (loading) return <Loader gif={LOADER_URL} />;
+  if (error) return <Loader gif={ERROR_URL} />;
   return (
     <Box w={"100%"} className="container">
       <Text>Home Page</Text>
