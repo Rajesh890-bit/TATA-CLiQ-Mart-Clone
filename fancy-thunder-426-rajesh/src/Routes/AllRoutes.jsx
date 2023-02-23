@@ -11,6 +11,7 @@ import CartPage from "../Pages/Cart";
 import SearchPage from "../Pages/SearchPage";
 import ProfilePage from "../Pages/ProfilePage";
 import AdminPanel from "../Pages/AdminPanel";
+import CheckoutPage from "../Pages/CheckoutPage";
 
 const AllRoutes = () => {
   return (
@@ -47,6 +48,15 @@ const AllRoutes = () => {
             </PrivateRoute>
           }
         />
+        <Route
+          path="/checkout"
+          element={
+            <PrivateRoute>
+              <CheckoutPage />
+            </PrivateRoute>
+          }
+        />
+
         <Route path="/search" element={<SearchPage />} />
       </Routes>
     </div>
