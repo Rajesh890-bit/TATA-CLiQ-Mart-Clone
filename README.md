@@ -51,10 +51,10 @@ followed the day in which you working. below is the eg for my branches.
 
                - branch-naming style: fw21_XXXX_day-x
 
-            -for day-2 branch name should be: fw21_1003_day-2
-            -for day-3 branch name should be: fw21_1003_day-3
-            -for day-4 branch name should be: fw21_1003_day-4
-            -for day-5 branch name should be: fw21_1003_day-5
+            -for day-2 branch name should be: fw21_0929_day-2
+            -for day-3 branch name should be: fw21_0929_day-3
+            -for day-4 branch name should be: fw21_0929_day-4
+            -for day-5 branch name should be: fw21_0929_day-5
 
         2- How to create branches:
             - $git branch <branch-name> (without angle brackets)
@@ -65,7 +65,11 @@ followed the day in which you working. below is the eg for my branches.
         4- How to pull:
             -$git pull origin <branch-name>    (without angle brackets)
 
-=> Some helpful Tools during development :<br /> - Chakra-UI - https://chakra-ui.com/<br /> - Chakra-Templets - https://chakra-templates.dev/#<br /> - Code SandBox - <br/> - Chat-gpt - https://chat.openai.com/chat<br />
+=> Some helpful Tools during development :<br /> 
+- Chakra-UI - https://chakra-ui.com/<br /> 
+- Chakra-Templets - https://chakra-templates.dev/#<br /> 
+- Code SandBox - <br/> 
+- Chat-gpt - https://chat.openai.com/chat<br />
 
 **\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\*** All the best guys ****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****
 
