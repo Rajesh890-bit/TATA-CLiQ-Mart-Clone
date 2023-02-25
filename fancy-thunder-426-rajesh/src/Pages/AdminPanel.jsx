@@ -33,6 +33,7 @@ import {
 } from "@chakra-ui/react";
 
 import axios from "axios";
+import { PRODUCTS } from "../Constants/constants";
 
 let product = {
   id: null,
@@ -92,7 +93,27 @@ export function TableRow({
 
   const EditProduct = async () => {};
 
-  const deleteItem = async () => {};
+  const deleteItem = async () => {
+    console.log(id, "delete data id");
+
+    let res = await axios.get(
+      `https://tata-cliq.onrender.com/products/${category}`
+    );
+    res = await res.data.items;
+
+    let newData = res.filter((el) => el.id !== id);
+
+    let res1 = await axios(
+      `https://tata-cliq.onrender.com/products/${category}`,
+      {
+        method: "patch",
+        data: { items: newData },
+      }
+    );
+
+    console.log(res1);
+    handleTable(category);
+  };
 
   return (
     <>
@@ -119,33 +140,62 @@ export function TableRow({
 }
 
 export default function AdminPanel() {
-  const [value, setValue] = useState(""); // State to store the value of the input field
-
-  const [nproduct, setNewProducts] = useState(product);
+  const [catvalue, setCatValue] = useState("shoes"); // State to store the value of table category change Value
+  const [value, setValue] = useState("shoes");
+  const [NewProduct, setNewProducts] = useState(product);
   const [tableData, setTableData] = useState([]);
-
+  //data posting done here...................
   const handleProSubmitAddNewProducts = async (event) => {
     event.preventDefault();
 
-    console.log(nproduct);
+    // console.log(NewProduct);
+
+    let res = await axios.get(
+      `https://tata-cliq.onrender.com/products/${NewProduct.category}`
+    );
+    res = await res.data.items;
+
+    NewProduct.id = Math.random() + Date.now();
+    NewProduct.price = Number(NewProduct.price);
+    NewProduct.strike_price = Number(NewProduct.strike_price);
+    NewProduct.delivery_time = Number(NewProduct.delivery_time);
+    NewProduct.ratings = Number(NewProduct.ratings);
+    NewProduct.images = [NewProduct.images];
+    NewProduct.sizes = [NewProduct.sizes];
+
+    // https://tata-cliq.onrender.com/products/${value}
+
+    let res1 = await axios(
+      `https://tata-cliq.onrender.com/products/${NewProduct.category}`,
+      {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+        },
+        method: "patch",
+        data: { items: [...res, NewProduct] },
+      }
+    );
+    // console.log(res, "response");
+    // console.log(NewProduct, "JAFNUEWFUEWFUEFNFJFNDJNDS DJN FNFONF");
+    // console.log("REASPONSE AFTER POST", res1);
   };
 
   const handleFormData = (e) => {
     const val = e.target.name === "size" ? e.target.checked : e.target.value;
 
-    setNewProducts({ ...nproduct, [e.target.name]: val });
+    setNewProducts({ ...NewProduct, [e.target.name]: val });
   };
 
-  const handleTable = (value = "shoes") => {
-    fetch(`https://tata-cliq.onrender.com/products/${value}`)
+  const handleTable = (catvalue) => {
+    fetch(`https://tata-cliq.onrender.com/products/${catvalue}`)
       .then((e) => e.json())
       .then((e) => {
         setTableData(e);
       });
   };
   useEffect(() => {
-    handleTable();
-  }, [value]);
+    handleTable(catvalue);
+  }, [catvalue]);
 
   return (
     <Box className="container">
@@ -312,6 +362,7 @@ export default function AdminPanel() {
             m="24px"
             onChange={(e) => {
               handleTable(e.target.value);
+              setCatValue(e.target.value);
             }}
           >
             <option value="shoes">Shoes</option>
@@ -335,7 +386,7 @@ export default function AdminPanel() {
                 </Tr>
               </Thead>
               <Tbody>
-                {console.log(tableData)}
+                {/* {console.log(tableData)} */}
                 {tableData?.items?.map((el) => {
                   return (
                     <TableRow {...el} handleTable={handleTable} key={el.id} />
