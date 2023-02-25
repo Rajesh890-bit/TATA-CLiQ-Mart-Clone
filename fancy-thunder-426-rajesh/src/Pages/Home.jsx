@@ -51,7 +51,6 @@ export default function Home() {
   if (error) return <Loader gif={ERROR_URL} />;
   return (
     <Box w={"100%"} className="container">
-      <Text>Home Page</Text>
       <Carousels />
 
       {/* category */}

@@ -73,24 +73,44 @@ const Products = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [catagoryProd, setCategory] = useState([]);
-
   const [searchParams, setSearchParams] = useSearchParams();
-
-  const [productData, setProductData] = useState();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = useRef();
+  const [filteredData, setFilterData] = useState([]);
+
   const [clear, setClear] = useState(false);
   let value = searchParams.get("sort");
-  let filterValues = searchParams.get("filter")?.toString().split("+") || [];
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  //   console.log(error);
-
   let { id } = useParams();
   const [filter, setFilters] = useState([]);
+
+  useEffect(() => {
+    if (value === undefined) {
+      setSearchParams(`?sort=${POPULARITY}`);
+    }
+
+    if (value === POPULARITY) {
+      setFilterData([...catagoryProd]);
+    } else if (value === LTH) {
+      let lthData = catagoryProd?.sort((a, b) => a.price - b.price);
+      setFilterData([...lthData]);
+    } else if (value === HTL) {
+      let htlData = catagoryProd?.sort((a, b) => b.price - a.price);
+      setFilterData([...htlData]);
+    } else if (value === DISCOUNT.toLowerCase()) {
+      let discountData = catagoryProd?.sort(
+        (a, b) =>
+          Math.abs(b.strike_price, b.price) - Math.abs(a.strike_price, a.price)
+      );
+      setFilterData([...discountData]);
+    } else {
+      setFilterData([...catagoryProd]);
+    }
+  }, [catagoryProd, searchParams, filter]);
 
   useEffect(() => {
     setLoading(true);
@@ -108,7 +128,6 @@ const Products = () => {
       });
   }, [id]);
 
-  console.log("Data from View Product page", id);
   if (!isAuth) {
     return <Navigate to={"/"} />;
   }
@@ -247,6 +266,7 @@ const Products = () => {
           gap={4}
           w={{ base: FILL_PARENT, sm: FILL_75PARENT, lg: FILL_75PARENT }}
           gridTemplateColumns={{ base: R1, sm: R3, lg: R4 }}
+          p={3}
         >
           {catagoryProd?.map((el) => (
             <ProductCard key={el.id} {...el} />
