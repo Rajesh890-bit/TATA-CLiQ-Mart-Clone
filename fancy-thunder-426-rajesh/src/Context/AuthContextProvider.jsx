@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 import { onAuthStateChanged, signOut } from "firebase/auth";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { auth } from "../firebase-config";
 
 export const AuthContext = createContext();
@@ -51,11 +51,9 @@ const AuthContextProvider = ({ children }) => {
     setIsAuth(false);
     setToken("");
   };
-  console.log("MYtoken", token);
+  // console.log("MYtoken", token);
   return (
-    <AuthContext.Provider
-      value={{ login, logout, isAuth, token, authUser, handleAddToCart, cart }}
-    >
+    <AuthContext.Provider value={{ login, logout, isAuth, token, authUser }}>
       {children}
     </AuthContext.Provider>
   );

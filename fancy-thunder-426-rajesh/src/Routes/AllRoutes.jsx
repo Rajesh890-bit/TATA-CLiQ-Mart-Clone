@@ -12,6 +12,7 @@ import SearchPage from "../Pages/SearchPage";
 import ProfilePage from "../Pages/ProfilePage";
 import AdminPanel from "../Pages/AdminPanel";
 import CheckoutPage from "../Pages/CheckoutPage";
+import ProtectAdmin from "../Context/ProtectAdmin";
 
 const AllRoutes = () => {
   return (
@@ -44,7 +45,9 @@ const AllRoutes = () => {
           path="/admin"
           element={
             <PrivateRoute>
-              <AdminPanel />
+              <ProtectAdmin>
+                <AdminPanel />
+              </ProtectAdmin>
             </PrivateRoute>
           }
         />
@@ -57,7 +60,14 @@ const AllRoutes = () => {
           }
         />
 
-        <Route path="/search" element={<SearchPage />} />
+        <Route
+          path="/search"
+          element={
+            <PrivateRoute>
+              <SearchPage />
+            </PrivateRoute>
+          }
+        />
       </Routes>
     </div>
   );
