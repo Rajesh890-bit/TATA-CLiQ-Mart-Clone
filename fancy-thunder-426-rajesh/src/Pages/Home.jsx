@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Heading, Text } from "@chakra-ui/react";
+import { Box, Center, Flex, Grid, Heading, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Carousels from "../Components/Carousel/Carousel";
 import { Gap } from "../Components/Gap";
@@ -44,6 +44,9 @@ import shoes_banner from "../assets/shoes_banner.png";
 import trending_men_banner from "../assets/trending_men_banner.png";
 import { ERROR_URL, LOADER_URL } from "../Constants/constants";
 import Loader from "../Components/Loader/Loader";
+import ImageCarousal from "../Components/Cardcarosal/CardCarosal";
+import { dummyImages1 } from "../Constants/staticData";
+import { dummyImages2 } from "../Constants/staticData";
 export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -52,7 +55,7 @@ export default function Home() {
   return (
     <Box w={"100%"} className="container">
       <Carousels />
-
+      <Gap gap={15} />
       {/* category */}
       <Grid gridTemplateColumns={{ base: R3, sm: R6, lg: R11 }}>
         {circularCategoryData.map((el) => (
@@ -81,11 +84,7 @@ export default function Home() {
         <Gap gap={50} />
 
         {/* Category wear Images */}
-        <Grid gap={8} gridTemplateColumns={{ base: R1, sm: R2, lg: R4 }}>
-          {dealsWheelData.map((el) => (
-            <CardComponent key={el.src} {...el} />
-          ))}
-        </Grid>
+        <ImageCarousal dummyImages={dummyImages1} />
 
         {/* gap component for simple gap */}
         <Gap gap={60} />
@@ -231,7 +230,7 @@ export default function Home() {
         {/* gap component for simple gap */}
         <Gap gap={60} />
         <Heading h1={"THE NEWSIDE STORE"} h2={"New trends, everyday"} />
-        <Gap gap={150} />
+        <Gap gap={120} />
 
         {/* westside store*/}
         <Grid gap={8} gridTemplateColumns={{ base: R1, sm: R2, lg: R4 }}>
@@ -240,15 +239,12 @@ export default function Home() {
           ))}
         </Grid>
         {/* gap component for simple gap */}
-        <Gap gap={60} />
+        <Gap gap={40} />
       </Box>
-      <CardComponent
-        src={
-          "https://assets.tatacliq.com/medias/sys_master/images/45589087453214.gif"
-        }
-        w={FILL_PARENT}
-      />
-      <Gap gap={70} />
+      <Center m={"14rem"}>
+        <ImageCarousal dummyImages={dummyImages2} />
+      </Center>
+      <Gap gap={30} />
     </Box>
   );
 }

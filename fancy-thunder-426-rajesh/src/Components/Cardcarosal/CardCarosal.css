@@ -1,0 +1,32 @@
+.carousel-image {
+    width: 10rem; /* Make sure the images fill the entire width */
+    height: auto; /* Keep the aspect ratio of the images */
+    object-fit: cover; /* Crop and center the images */
+  }
+  
+  .carousel-image.active {
+    /* Add any styles for the active image */
+    border: 2px solid blue;
+  }
+  .alice-carousel__prev-btn{
+    width: 100px
+  
+  /* Override the default styles for the carousel items */
+  .alice-carousel__stage-item {
+    width: calc(
+      100% / 3
+    ); /* Divide the width by the number of cards to display */
+    display: inline-block; /* Display the items as inline-block elements */
+  }
+  
+  @media (max-width: 600px) {
+    .alice-carousel__stage-item {
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .alice-carousel__stage-item {
+      width: calc(100% / 1);
+    }
+  }

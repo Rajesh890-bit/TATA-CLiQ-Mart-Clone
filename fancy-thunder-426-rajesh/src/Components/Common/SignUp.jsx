@@ -125,7 +125,7 @@ const SignUp = (e) => {
                 borderRadius={0}
                 type="submit"
                 variant="solid"
-                colorScheme="teal"
+                colorScheme="red"
                 width="full"
               >
                 Sign Up
@@ -134,7 +134,7 @@ const SignUp = (e) => {
           </form>
         </Box>
       </Stack>
-      <Box style={{ color: "teal" }}>
+      <Box style={{ color: "black" }}>
         New to us? <Link to="/login">Log In</Link>
       </Box>
     </Flex>

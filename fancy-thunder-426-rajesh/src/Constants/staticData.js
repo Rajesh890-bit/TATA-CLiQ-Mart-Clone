@@ -33,7 +33,7 @@ import {
 
 export const circularCategoryData = [
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822749726.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802433054.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
@@ -42,7 +42,7 @@ export const circularCategoryData = [
     category: "menswear",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822782494.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802367518.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
@@ -51,7 +51,7 @@ export const circularCategoryData = [
     category: "shoes",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822848030.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802564126.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
@@ -60,7 +60,7 @@ export const circularCategoryData = [
     category: "womenswear",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822880798.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802629662.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
@@ -69,22 +69,22 @@ export const circularCategoryData = [
     category: "gadgets",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822815262.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46131531546654.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
     border: "",
     br: 0,
-    category: "",
+    category: "beauty",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45536787791902.gif",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802695198.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
     border: "",
     br: 0,
-    category: "",
+    category: "home",
   },
   {
     src: "https://assets.tatacliq.com/medias/sys_master/images/45548090884126.jpg",
@@ -96,40 +96,40 @@ export const circularCategoryData = [
     category: "",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822913566.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46131534299166.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
     border: "",
     br: 0,
-    category: "shoes",
+    category: "westside",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822946334.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802826270.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
     border: "",
     br: 0,
-    category: "",
+    category: "kid'swear",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519822979102.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802760734.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
     border: "",
     br: 0,
-    category: "",
+    category: "watches",
   },
   {
-    src: "https://assets.tatacliq.com/medias/sys_master/images/45519823011870.jpg",
+    src: "https://assets.tatacliq.com/medias/sys_master/images/46012802891806.jpg",
     w: AUTO,
     h: AUTO,
     bs: "",
     border: "",
     br: 0,
-    category: "",
+    category: "jewellery",
   },
 ];
 
@@ -673,5 +673,67 @@ export const FilterData = [
   {
     name: AVAILABILITY,
     options: [],
+  },
+];
+
+export const dummyImages1 = [
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45539109339166.jpg",
+    alt: "Image 1",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45539109175326.jpg",
+    alt: "Image 2",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45536789692446.jpg",
+    alt: "Image 3",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45539107635230.jpg",
+    alt: "Image 4",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45536789954590.jpg",
+    alt: "Image 5",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45588212875294.jpg",
+    alt: "Image 6",
+  },
+];
+
+export const dummyImages2 = [
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717766963230.jpg",
+    alt: "Image 1",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717767028766.jpg",
+    alt: "Image 2",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717767094302.jpg",
+    alt: "Image 3",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717767159838.jpg",
+    alt: "Image 4",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45727710183454.jpg",
+    alt: "Image 5",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717767421982.jpg",
+    alt: "Image 6",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717767487518.jpg",
+    alt: "Image 7",
+  },
+  {
+    src: "https://assets.tatacliq.com/medias/sys_master/images/45717767553054.jpg",
+    alt: "Image 8",
   },
 ];

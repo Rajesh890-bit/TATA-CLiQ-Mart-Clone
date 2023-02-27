@@ -47,9 +47,9 @@ export default function Navbar() {
 
   let nav = useNavigate();
   const handleSeacrh = (event) => {
-    // if (event.key == "Enter") {
-    //   nav(`/search?q=${value}`);
-    // }
+    if (event.key === "Enter") {
+      nav(`/search?q=${value}`);
+    }
   };
 
   return (

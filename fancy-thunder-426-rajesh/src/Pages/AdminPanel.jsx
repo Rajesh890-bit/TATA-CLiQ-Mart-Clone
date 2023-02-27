@@ -30,6 +30,7 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
+  Text,
 } from "@chakra-ui/react";
 
 import axios from "axios";
@@ -199,6 +200,10 @@ export default function AdminPanel() {
 
   return (
     <Box className="container">
+      <Heading color={"red.400"}>Welcome to Rajesh's Dash Board</Heading>
+      <Text color={"red.400"}>
+        Admin section is Open for You to get More Clarity how it Works
+      </Text>
       <Flex>
         <VStack w="30%">
           <Divider />
