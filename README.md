@@ -1,4 +1,4 @@
-# TATA CLiQ Mart
+# TATA CLiQ Mart Clone
 
 <center><h3>Begin your journey online with one of the fastest growing, e-commerce brands in the country and have a seamless online shopping experience. Immerse yourself in the joy of browsing through the best Indian and international brands in fashion, luxury, electronics and jewellery.</h3></center>
 
