@@ -73,9 +73,7 @@ followed the day in which you working. below is the eg for my branches.
 
 **\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\*** All the best guys ****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****
 
-# Work Flow Chart
 
-\*Note:- Bhavnesh will do all the backend and admin panel so you will get apis and endpoint on day-2 morning.
 
 # Base_url
 
@@ -188,7 +186,7 @@ These are the pages we need in this project.
 
 - `ViewProductPage`------------------->(Day3-Day4)
 
-- `CartPage`----------------------------> Saurabh (Day3-Day4)
+- `CartPage`---------------------------->  (Day3-Day4)
 
 # Components
 
