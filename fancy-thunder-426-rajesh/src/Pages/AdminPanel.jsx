@@ -200,10 +200,8 @@ export default function AdminPanel() {
 
   return (
     <Box className="container">
-      <Heading color={"red.400"}>Welcome to Rajesh's Dash Board</Heading>
-      <Text color={"red.400"}>
-        Admin section is Open for You to get More Clarity how it Works
-      </Text>
+      <Heading color={"red.400"}>Welcome to Admin's Dash Board</Heading>
+
       <Flex>
         <VStack w="30%">
           <Divider />
