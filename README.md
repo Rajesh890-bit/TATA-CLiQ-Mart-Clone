@@ -83,36 +83,6 @@ followed the day in which you working. below is the eg for my branches.
 
 # Endpoints
 
-`/users`
-`/products`
-
-`User Schema`
-
-```
-{
-   "id":0,
-  "name": "",
-  "email": "",
-  "password": "",
-  "account": {
-    "cart": [
-      {"id":0,
-        "images": ["", ""],
-        "name": "",
-        "short_desc": "",
-        "long_desc": "",
-        "price": 0,
-        "category":"",
-        "strike_price": 0,
-        "ratings": 0,
-        "color":"",
-        "delivery_time": 0,
-        "size":"",
-        "quantity":0
-      }]
-  }
-}
-```
 
 - Whole `db.json` Database look
 
